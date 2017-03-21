@@ -1,3 +1,19 @@
 .js-text {
   color: green;
+
+}
+.card {
+  border : 1px solid green;
+  margin: 10px 10px 10px 10px;
+  height : 300px;
+
+}
+.jumbotorn {
+  text-align: center;
+  padding : 10px 10px 10px 10px;
+  background-color: green;
+  color : white;
+}
+#back-card1, #back-card2, #back-card3 {
+  display: none;
 }
