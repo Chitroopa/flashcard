@@ -2,9 +2,9 @@
   color: green;
 
 }
-.card {
+#card1, #card2, #card3, #card4, #card5, #card6 {
   border : 1px solid green;
-  margin: 10px 10px 10px 10px;
+  margin: 40px 40px 40px 40px;
   height : 300px;
 
 }
@@ -14,6 +14,29 @@
   background-color: green;
   color : white;
 }
-#back-card1, #back-card2, #back-card3 {
+#back-card1, #back-card2, #back-card3, #back-card4 , #back-card5, #back-card6{
   display: none;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 100px;
+}
+#card1 {
+  background-color: #F4C0FF;
+}
+#card2 {
+  background-color: #C0F5FF;
+}
+#card3 {
+  background-color: #C8F4A1;
+}
+#card4 {
+  background-color: #F4BDA1;
+}
+#card5 {
+  background-color: #F7F1A1;
+}
+#card6 {
+  background-color: #F7A1A6;
 }

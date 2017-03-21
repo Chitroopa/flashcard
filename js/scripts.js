@@ -1,33 +1,29 @@
 $(document).ready(function() {
 
-  $("#hidetext1").click(function(){
+  $("#card1").click(function(){
     $("#front-card1").toggle();
     $("#back-card1").toggle();
-
   });
-  $("#front-card1").click(function(){
-    $("#back-card1").toggle();
-    $("#front-card1").toggle();
-  });
-  $("#hidetext2").click(function(){
+  $("#card2").click(function(){
     $("#front-card2").toggle();
     $("#back-card2").toggle();
-
   });
-  $("#front-card2").click(function(){
-    $("#back-card2").toggle();
-    $("#front-card2").toggle();
-  });
- $("#hidetext3").click(function(){
+ $("#card3").click(function(){
    $("#front-card3").toggle();
    $("#back-card3").toggle();
-
  });
- $("#front-card3").click(function(){
-   $("#back-card3").toggle();
-   $("#front-card3").toggle();
+ $("#card4").click(function(){
+   $("#front-card4").toggle();
+   $("#back-card4").toggle();
  });
-
+ $("#card5").click(function(){
+   $("#front-card5").toggle();
+   $("#back-card5").toggle();
+ });
+ $("#card6").click(function(){
+   $("#front-card6").toggle();
+   $("#back-card6").toggle();
+ });
 
 
 
